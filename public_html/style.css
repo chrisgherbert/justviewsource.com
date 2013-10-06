@@ -1,0 +1,127 @@
+/* Utilities */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+body {
+	background: #1E1E25;
+	font-family: "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 18px;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	background: url(img/bg.png) repeat-y;
+}
+
+.page-title {
+	padding-bottom: 20px;
+	border-bottom: 15px solid rgba(0,0,0,0.55);
+	margin-bottom: 0;
+}
+
+.page-title span {
+	display: block;
+	width: 33%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	margin-top: 100px;
+	font-size: 60px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+	font-weight: 400;
+}
+
+.main-content {
+	padding: 40px;
+	background: rgba(0,0,0,0.35);
+}
+
+form {
+	text-align: center;
+	height: 78px;
+	padding: 0;
+	margin: 0 auto 40px auto;
+}
+
+label {
+	height: 78px;
+	line-height: 78px;
+	width: 100px;
+	color: #888888;
+	background: #DDDDDD;
+	font-size: 34px;
+	display: block;
+	float: left;
+}
+
+input {
+	font-family: monospace;
+	font-size: 23px;
+	height: 78px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	display: block;
+	float: left;
+}
+
+button {
+	display: block;
+	height: 78px;
+	float: left;
+	border: none;
+	margin: 0;
+	background: #fff;
+}
+
+/* Syntax Highlighting */
+
+.highlighter {
+	background: #fff;
+	padding: 10px;
+	max-width: 1090px;
+	overflow-x: scroll;
+	margin-bottom: 40px;
+}
+
+.highlighter code {
+	font-family: "Inconsolata", monospace;
+	color: #ccc;
+}
+
+.highlighter .syntaxhighlighter .gutter .line {
+	padding-right: 10px;
+	border-right-color: #E6E6E6;
+	color: #E6E6E6;
+}
+
+.code {
+	vertical-align: baseline;
+	padding-left: 10px;
+}
+
+td div {
+	height: 20px;
+	white-space: nowrap;
+}
+
+/* Footer */
+
+footer {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+footer a {
+	color: #fff;
+}
